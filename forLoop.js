@@ -29,3 +29,4 @@ for (var i = 0; i < students.length; i++) {
     // This statement will run each time the loop is executed
     console.log("Great to see you, " + students[i] + "!");
 }
+

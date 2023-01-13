@@ -1,6 +1,7 @@
 let base = parseInt(
   prompt("What number do you want to a multiplication table of?")
 );
+
 if (!base) {
     alert("you have not selected a number, we will make it 1")
   base = 1;
@@ -18,3 +19,7 @@ while (i <= range) {
   console.log(`${base} x ${i} = ${base * i}`);
   i++;
 }
+
+// for (let i =1; i<=range; i++){
+//     console.log(`${base} x ${i} = ${base * i}`);
+// }
